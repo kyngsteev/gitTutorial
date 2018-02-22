@@ -11,9 +11,11 @@
   <section>
     <img src="img/google.png" alt="google logo">
     <form>
-      <input type="text">
-      <input type="submit" value="Google Search">
-      <input type="submit" value="I'm Feeling Lucky">
+      <input id="formInput" type="text">
+      <div class="formButtons">
+        <input type="submit" value="Google Search" id="search" onclick="searchGoogle()">
+        <input type="submit" value="I'm Feeling Lucky">
+      </div>
     </form>
   </section>
   <script src="script.js" type="script/javascript"></script>
