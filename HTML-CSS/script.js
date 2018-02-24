@@ -1,5 +1,4 @@
-$(document).ready(function(){
-  function searchGoogle(){
+function searchGoogle(){
     var searchValue = document.getElementById('formInput').value;
   
     if(typeof searchValue === undefined || searchValue === ""){
@@ -8,4 +7,3 @@ $(document).ready(function(){
       alert('Hurray!!! You are searching for ' + searchValue);
     }
   }
-});
